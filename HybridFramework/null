@@ -1,0 +1,15 @@
+1543401432303	geckodriver	INFO	geckodriver 0.20.0
+1543401432321	geckodriver	INFO	Listening on 127.0.0.1:8107
+1543401433220	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Shekhar\\AppData\\Local\\Temp\\rust_mozprofile.OfQEyOVdPJ3M"
+Unable to read VR Path Registry from C:\Users\Shekhar\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Shekhar\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Shekhar\AppData\Local\openvr\openvrpaths.vrpath
+1543401439349	Marionette	INFO	Listening on port 50188
+1543401439651	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Shekhar\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://s.yimg.com/wm/mbr/504f4432c87fd486eb7979f2bd32778190ab1dc4/bundle.js, line 2: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://s.yimg.com/wm/mbr/504f4432c87fd486eb7979f2bd32778190ab1dc4/bundle.js, line 2: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://s.yimg.com/wm/mbr/504f4432c87fd486eb7979f2bd32778190ab1dc4/bundle.js, line 2: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://s.yimg.com/wm/mbr/504f4432c87fd486eb7979f2bd32778190ab1dc4/bundle.js, line 2: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1543401454483	geckodriver::marionette	ERROR	Failed to stop browser process

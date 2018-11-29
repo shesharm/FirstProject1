@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Gmail Suite" parallel="tests">
+<test name="Gmail Sign In Test">
+    <classes>
+        <class name="com.pge.hybrid.testcases.gmailsuite.GmailLogin" ></class>  
+    </classes>
+</test>
+
+<test name="Gmail Sign Up Test">
+    <classes>
+        <class name="com.pge.hybrid.testcases.gmailsuite.GmailSignUp" ></class>  
+    </classes>
+</test>
+</suite>

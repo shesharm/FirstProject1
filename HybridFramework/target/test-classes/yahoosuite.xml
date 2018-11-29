@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Yahoo Suite" parallel="tests">
+<test name="Yahoo Sign In Test">
+    <classes>
+        <class name="com.pge.hybrid.testcases.yahoosuite.YahooSignIn" ></class>  
+    </classes>
+</test>
+
+<test name="Yahoo Sign up Test">
+    <classes>
+        <class name="com.pge.hybrid.testcases.yahoosuite.YahooSignUp" ></class>  
+    </classes>
+</test>
+
+</suite>
