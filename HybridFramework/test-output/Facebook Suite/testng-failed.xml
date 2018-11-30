@@ -5,7 +5,7 @@
     <classes>
       <class name="com.pge.hybrid.testcases.facebooksuite.FacebookTest">
         <methods>
-          <include name="facebookLogin" invocation-numbers="0 1"/>
+          <include name="facebookLogin" invocation-numbers="1"/>
           <include name="quit"/>
           <include name="init"/>
           <include name="initTest"/>

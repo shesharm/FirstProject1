@@ -279,8 +279,8 @@ public class GenericKeywords {
 	}
 	
 	public void quit(){
-		//if(driver!=null)
-			//driver.quit();
+		if(driver!=null)
+			driver.quit();
 	}
 	/*********************Utitlity Functions************************/
 	// central function to extract Objects
