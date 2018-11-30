@@ -19,6 +19,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
@@ -120,8 +121,10 @@ public class GenericKeywords {
 				driver = new FirefoxDriver();
 			}else if(browser.equals("Chrome")){
 				// init options
+				ChromeOptions opt = new ChromeOptions();
+				opt.addArguments("--disable-notifications");
 				System.setProperty("webdriver.chrome.driver", "C:\\selenium\\drivers\\chromedriver.exe");
-				driver = new ChromeDriver();
+				driver = new ChromeDriver(opt);
 			}else if(browser.equals("IE")){
 				driver = new InternetExplorerDriver();
 			}else if(browser.equals("Edge")){
@@ -143,7 +146,7 @@ public class GenericKeywords {
 	}
 
 	public void click(){
-		test.log(Status.INFO,"Clicking "+prop.getProperty(objectKey));
+		test.log(Status.INFO,"Clicking "+objectKey);
 		getObject(objectKey).click();
 	}
 	
@@ -276,8 +279,8 @@ public class GenericKeywords {
 	}
 	
 	public void quit(){
-		if(driver!=null)
-			driver.quit();
+		//if(driver!=null)
+			//driver.quit();
 	}
 	/*********************Utitlity Functions************************/
 	// central function to extract Objects
@@ -336,6 +339,25 @@ public class GenericKeywords {
 				
 				return false;
 	}
+	
+	public void fileUpload() throws InterruptedException  {
+		//waitForPageToLoad();
+		//Thread.sleep(2000);
+		//test.log(Status.INFO,"Uploading the file."+data.get(dataKey));
+		Thread.sleep(20000);
+		try {
+			Runtime.getRuntime().exec("C:\\HybridFramework\\HybridFramework\\Files\\FileUpload.exe");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		test.log(Status.INFO,"File uploaded successfully");
+	}
+	
+	/*public void fileUpload(String datakey) throws InterruptedException  {
+		setDataKey(dataKey);
+		fileUpload();
+	}*/
 	
 	/*******Reporting function********/
 	public void reportFailure(String failureMsg){

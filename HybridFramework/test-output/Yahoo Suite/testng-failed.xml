@@ -13,4 +13,16 @@
       </class> <!-- com.pge.hybrid.testcases.yahoosuite.YahooSignUp -->
     </classes>
   </test> <!-- Yahoo Sign up Test(failed) -->
+  <test thread-count="5" name="Yahoo Sign In Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.pge.hybrid.testcases.yahoosuite.YahooSignIn">
+        <methods>
+          <include name="quit"/>
+          <include name="init"/>
+          <include name="yahooSignIn" invocation-numbers="0"/>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.pge.hybrid.testcases.yahoosuite.YahooSignIn -->
+    </classes>
+  </test> <!-- Yahoo Sign In Test(failed) -->
 </suite> <!-- Failed suite [Yahoo Suite] -->

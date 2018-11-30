@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Facebook Suite" parallel="tests">
+<test name="Facebook Sign In Test">
+    <classes>
+        <class name="com.pge.hybrid.testcases.facebooksuite.FacebookTest" ></class>  
+    </classes>
+</test>
+<test name="Facebook File Upload">
+    <classes>
+        <class name="com.pge.hybrid.testcases.facebooksuite.UploadFiles" ></class>  
+    </classes>
+</test>
+
+</suite>

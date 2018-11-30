@@ -3,5 +3,6 @@
  <suite-files>
    <suite-file path="./src/test/resources/yahoosuite.xml" />
    <suite-file path="./src/test/resources/gmailsuite.xml" />
+   <suite-file path="./src/test/resources/facebooksuite.xml" />
   </suite-files>
 </suite>

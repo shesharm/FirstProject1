@@ -10,7 +10,7 @@ public class ParallelExec {
 		TestNG testng = new TestNG(); 
 		testng.setTestSuites(Arrays.asList(new String[] {System.getProperty("user.dir")+"//src/test/resources/testng.xml"}));
 
-		testng.setSuiteThreadPoolSize(2);
+		testng.setSuiteThreadPoolSize(3);
 		
 		testng.run();
 

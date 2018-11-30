@@ -1,15 +1,17 @@
-1543401432303	geckodriver	INFO	geckodriver 0.20.0
-1543401432321	geckodriver	INFO	Listening on 127.0.0.1:8107
-1543401433220	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Shekhar\\AppData\\Local\\Temp\\rust_mozprofile.OfQEyOVdPJ3M"
-Unable to read VR Path Registry from C:\Users\Shekhar\AppData\Local\openvr\openvrpaths.vrpath
-Unable to read VR Path Registry from C:\Users\Shekhar\AppData\Local\openvr\openvrpaths.vrpath
-Unable to read VR Path Registry from C:\Users\Shekhar\AppData\Local\openvr\openvrpaths.vrpath
-1543401439349	Marionette	INFO	Listening on port 50188
-1543401439651	Marionette	WARN	TLS certificate errors will be ignored for this session
-Unable to read VR Path Registry from C:\Users\Shekhar\AppData\Local\openvr\openvrpaths.vrpath
-JavaScript warning: https://s.yimg.com/wm/mbr/504f4432c87fd486eb7979f2bd32778190ab1dc4/bundle.js, line 2: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
-JavaScript warning: https://s.yimg.com/wm/mbr/504f4432c87fd486eb7979f2bd32778190ab1dc4/bundle.js, line 2: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
-JavaScript warning: https://s.yimg.com/wm/mbr/504f4432c87fd486eb7979f2bd32778190ab1dc4/bundle.js, line 2: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
-JavaScript warning: https://s.yimg.com/wm/mbr/504f4432c87fd486eb7979f2bd32778190ab1dc4/bundle.js, line 2: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
-*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
-1543401454483	geckodriver::marionette	ERROR	Failed to stop browser process
+1543493746425	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Shekhar\\AppData\\Local\\Temp\\rust_mozprofile.oMFy6npHiYXC"
+[Child 772, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1543493750560	Marionette	INFO	Listening on port 52126
+1543493750905	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/rCZU9P3KwN3.js, line 4: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/rCZU9P3KwN3.js, line 6: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+1543493778321	Marionette	INFO	Stopped listening on port 52126
+[Parent 5136, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
