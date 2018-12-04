@@ -150,10 +150,10 @@ public class GenericKeywords {
 		getObject(objectKey).click();
 	}
 	
-	public void click(String objectKey){
+	/*public void click(String objectKey){
 		setObjectKey(objectKey);
 		click();
-	}
+	}*/
 	
 	public void type(){
 		test.log(Status.INFO,"Typing in "+objectKey+" . Data - "+data.get(dataKey));
@@ -279,8 +279,8 @@ public class GenericKeywords {
 	}
 	
 	public void quit(){
-		if(driver!=null)
-			driver.quit();
+		//if(driver!=null)
+			//driver.quit();
 	}
 	/*********************Utitlity Functions************************/
 	// central function to extract Objects
