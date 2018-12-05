@@ -1,5 +1,6 @@
 package com.pge.hybrid.testcases.facebooksuite;
 
+import java.io.File;
 import java.util.Hashtable;
 
 import org.testng.SkipException;
@@ -26,7 +27,8 @@ public class FacebookTest extends BaseTest{
 	@Test(dataProvider="getData")
 	public void AppScanSite(Hashtable <String,String> data ) throws Exception {
 		test.log(Status.INFO, "Starting "+ testName);
-
+		File file = new File("C:\\test\\test.txt");
+		file.createNewFile();
 		if(DataUtil.isSkip(testName, xls) ||data.get(Constants.RUNMODE_COL).equals(Constants.RUNMODE_NO)){
 			test.log(Status.SKIP, "Runmode is set to NO");
 			throw new SkipException("Runmode is set to NO");
