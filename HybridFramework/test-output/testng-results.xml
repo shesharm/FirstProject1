@@ -2,20 +2,20 @@
 <testng-results skipped="2" failed="0" ignored="0" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="57822" started-at="2018-12-05T12:08:55Z" finished-at="2018-12-05T12:09:53Z">
+  <suite name="Default suite" duration-ms="13384" started-at="2018-12-12T12:50:07Z" finished-at="2018-12-12T12:50:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="57822" started-at="2018-12-05T12:08:55Z" finished-at="2018-12-05T12:09:53Z">
+    <test name="Default test" duration-ms="13384" started-at="2018-12-12T12:50:07Z" finished-at="2018-12-12T12:50:20Z">
       <class name="com.pge.hybrid.testcases.facebooksuite.FacebookTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.FacebookTest@3abbfa04]" name="init" is-config="true" duration-ms="958" started-at="2018-12-05T12:08:55Z" finished-at="2018-12-05T12:08:56Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.FacebookTest@3abbfa04]" name="init" is-config="true" duration-ms="922" started-at="2018-12-12T12:50:07Z" finished-at="2018-12-12T12:50:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="initTest()[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.FacebookTest@3abbfa04]" name="initTest" is-config="true" duration-ms="249" started-at="2018-12-05T12:08:56Z" finished-at="2018-12-05T12:08:56Z">
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.FacebookTest@3abbfa04]" name="initTest" is-config="true" duration-ms="245" started-at="2018-12-12T12:50:08Z" finished-at="2018-12-12T12:50:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initTest -->
-        <test-method status="PASS" signature="AppScanSite(java.util.Hashtable)[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.FacebookTest@3abbfa04]" name="AppScanSite" duration-ms="55074" started-at="2018-12-05T12:08:56Z" data-provider="getData" finished-at="2018-12-05T12:09:51Z">
+        <test-method status="PASS" signature="AppScanSite(java.util.Hashtable)[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.FacebookTest@3abbfa04]" name="AppScanSite" duration-ms="11014" started-at="2018-12-12T12:50:08Z" data-provider="getData" finished-at="2018-12-12T12:50:19Z">
           <params>
             <param index="0">
               <value>
@@ -26,15 +26,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AppScanSite -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.FacebookTest@3abbfa04]" name="quit" is-config="true" duration-ms="919" started-at="2018-12-05T12:09:51Z" finished-at="2018-12-05T12:09:52Z">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.FacebookTest@3abbfa04]" name="quit" is-config="true" duration-ms="782" started-at="2018-12-12T12:50:19Z" finished-at="2018-12-12T12:50:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="initTest()[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.FacebookTest@3abbfa04]" name="initTest" is-config="true" duration-ms="0" started-at="2018-12-05T12:09:52Z" finished-at="2018-12-05T12:09:52Z">
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.FacebookTest@3abbfa04]" name="initTest" is-config="true" duration-ms="0" started-at="2018-12-12T12:50:20Z" finished-at="2018-12-12T12:50:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initTest -->
-        <test-method status="SKIP" signature="facebookLogin(java.util.Hashtable)[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.FacebookTest@3abbfa04]" name="facebookLogin" duration-ms="61" started-at="2018-12-05T12:09:52Z" data-provider="getData" finished-at="2018-12-05T12:09:52Z">
+        <test-method status="SKIP" signature="facebookLogin(java.util.Hashtable)[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.FacebookTest@3abbfa04]" name="facebookLogin" duration-ms="17" started-at="2018-12-12T12:50:20Z" data-provider="getData" finished-at="2018-12-12T12:50:20Z">
           <params>
             <param index="0">
               <value>
@@ -48,7 +48,7 @@
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.SkipException: Runmode is set to NO
-at com.pge.hybrid.testcases.facebooksuite.FacebookTest.facebookLogin(FacebookTest.java:22)
+at com.pge.hybrid.testcases.facebooksuite.FacebookTest.facebookLogin(FacebookTest.java:23)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -80,15 +80,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- facebookLogin -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.FacebookTest@3abbfa04]" name="quit" is-config="true" duration-ms="230" started-at="2018-12-05T12:09:52Z" finished-at="2018-12-05T12:09:53Z">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.FacebookTest@3abbfa04]" name="quit" is-config="true" duration-ms="243" started-at="2018-12-12T12:50:20Z" finished-at="2018-12-12T12:50:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="initTest()[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.FacebookTest@3abbfa04]" name="initTest" is-config="true" duration-ms="0" started-at="2018-12-05T12:09:53Z" finished-at="2018-12-05T12:09:53Z">
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.FacebookTest@3abbfa04]" name="initTest" is-config="true" duration-ms="0" started-at="2018-12-12T12:50:20Z" finished-at="2018-12-12T12:50:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initTest -->
-        <test-method status="SKIP" signature="facebookLogin(java.util.Hashtable)[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.FacebookTest@3abbfa04]" name="facebookLogin" duration-ms="7" started-at="2018-12-05T12:09:53Z" data-provider="getData" finished-at="2018-12-05T12:09:53Z">
+        <test-method status="SKIP" signature="facebookLogin(java.util.Hashtable)[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.FacebookTest@3abbfa04]" name="facebookLogin" duration-ms="16" started-at="2018-12-12T12:50:20Z" data-provider="getData" finished-at="2018-12-12T12:50:20Z">
           <params>
             <param index="0">
               <value>
@@ -102,7 +102,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.SkipException: Runmode is set to NO
-at com.pge.hybrid.testcases.facebooksuite.FacebookTest.facebookLogin(FacebookTest.java:22)
+at com.pge.hybrid.testcases.facebooksuite.FacebookTest.facebookLogin(FacebookTest.java:23)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -134,7 +134,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- facebookLogin -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.FacebookTest@3abbfa04]" name="quit" is-config="true" duration-ms="145" started-at="2018-12-05T12:09:53Z" finished-at="2018-12-05T12:09:53Z">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.FacebookTest@3abbfa04]" name="quit" is-config="true" duration-ms="92" started-at="2018-12-12T12:50:20Z" finished-at="2018-12-12T12:50:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
