@@ -30,7 +30,7 @@ public class FacebookTest extends BaseTest{
 		test.log(Status.INFO, "Starting "+ testName);
 		System.out.println("Test 1");
 		String str1 = System.getProperty("USERNAME");
-		System.out.println(str1);
+		System.out.println("The username is " +str1);
 		File file = new File("C:\\test\\test.txt");
 		file.createNewFile();
 		if(DataUtil.isSkip(testName, xls) ||data.get(Constants.RUNMODE_COL).equals(Constants.RUNMODE_NO)){
