@@ -141,8 +141,11 @@
           <version>2.20.1</version>
           <configuration>
           	<systemPropertyVariables>
-          	<propertyname>USERNAME</propertyname>
+          	<propertyname>USERNAME_01</propertyname>
           	</systemPropertyVariables>
+          	<suiteXmlFiles>
+          		<suiteXmlFile>testng.xml</suiteXmlFile>
+          	</suiteXmlFiles>
           </configuration>
         </plugin>
         <plugin>
