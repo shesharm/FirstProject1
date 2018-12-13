@@ -54,7 +54,6 @@ public class BaseTest {
 			e.printStackTrace();
 		}
 		// init the xls file
-		// how do i come to know the suite ?
 		System.out.println(envProp.getProperty(suiteName+"_xls"));
 		xls = new Xls_Reader(envProp.getProperty(suiteName+"_xls"));
 		
