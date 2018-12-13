@@ -8,6 +8,7 @@
           <include name="facebookLogin" invocation-numbers="0 1"/>
           <include name="quit"/>
           <include name="init"/>
+          <include name="AppScanSite" invocation-numbers="0"/>
           <include name="initTest"/>
         </methods>
       </class> <!-- com.pge.hybrid.testcases.facebooksuite.FacebookTest -->
