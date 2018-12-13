@@ -38,6 +38,7 @@ public class BaseTest {
 		testName=this.getClass().getSimpleName();
 		String arr[] = this.getClass().getPackage().getName().split("\\.");
 		String suiteName= arr[arr.length-1];
+		System.out.println("The username is "+System.getProperty("USERNAME"));
 		// properties file
 		prop = new Properties();
 		envProp = new Properties();
