@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Yahoo Suite]" parallel="tests">
+  <test thread-count="5" verbose="0" name="Yahoo Sign up Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.pge.hybrid.testcases.yahoosuite.YahooSignUp">
+        <methods>
+          <include name="quit"/>
+          <include name="YahooSignUp" invocation-numbers="0"/>
+          <include name="init"/>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.pge.hybrid.testcases.yahoosuite.YahooSignUp -->
+    </classes>
+  </test> <!-- Yahoo Sign up Test(failed) -->
+  <test thread-count="5" verbose="0" name="Yahoo Sign In Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.pge.hybrid.testcases.yahoosuite.YahooSignIn">
+        <methods>
+          <include name="quit"/>
+          <include name="init"/>
+          <include name="yahooSignIn" invocation-numbers="0"/>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.pge.hybrid.testcases.yahoosuite.YahooSignIn -->
+    </classes>
+  </test> <!-- Yahoo Sign In Test(failed) -->
+</suite> <!-- Failed suite [Yahoo Suite] -->

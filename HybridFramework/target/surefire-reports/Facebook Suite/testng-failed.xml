@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Facebook Suite]" parallel="tests">
+  <test thread-count="5" verbose="0" name="Facebook File Upload(failed)" parallel="tests">
+    <classes>
+      <class name="com.pge.hybrid.testcases.facebooksuite.UploadFiles">
+        <methods>
+          <include name="quit"/>
+          <include name="UploadFile" invocation-numbers="0"/>
+          <include name="init"/>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.pge.hybrid.testcases.facebooksuite.UploadFiles -->
+    </classes>
+  </test> <!-- Facebook File Upload(failed) -->
+  <test thread-count="5" verbose="0" name="Facebook Sign In Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.pge.hybrid.testcases.facebooksuite.FacebookTest">
+        <methods>
+          <include name="facebookLogin" invocation-numbers="0 1"/>
+          <include name="quit"/>
+          <include name="init"/>
+          <include name="AppScanSite" invocation-numbers="0"/>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.pge.hybrid.testcases.facebooksuite.FacebookTest -->
+    </classes>
+  </test> <!-- Facebook Sign In Test(failed) -->
+</suite> <!-- Failed suite [Facebook Suite] -->
