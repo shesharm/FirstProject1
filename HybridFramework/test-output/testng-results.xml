@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="9" failed="0" ignored="0" total="9" passed="0">
+<testng-results skipped="5" failed="4" ignored="0" total="9" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Yahoo Suite" duration-ms="2678" started-at="2019-01-15T11:03:08Z" finished-at="2019-01-15T11:03:11Z">
+  <suite name="Yahoo Suite" duration-ms="34831" started-at="2019-01-16T04:54:14Z" finished-at="2019-01-16T04:54:49Z">
     <groups>
     </groups>
-    <test name="Yahoo Sign up Test" duration-ms="2545" started-at="2019-01-15T11:03:08Z" finished-at="2019-01-15T11:03:11Z">
+    <test name="Yahoo Sign up Test" duration-ms="2389" started-at="2019-01-16T04:54:14Z" finished-at="2019-01-16T04:54:16Z">
       <class name="com.pge.hybrid.testcases.yahoosuite.YahooSignUp">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.pge.hybrid.testcases.yahoosuite.YahooSignUp@4bec1f0c]" name="init" is-config="true" duration-ms="1132" started-at="2019-01-15T11:03:08Z" finished-at="2019-01-15T11:03:10Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.pge.hybrid.testcases.yahoosuite.YahooSignUp@3aa9e816]" name="init" is-config="true" duration-ms="1192" started-at="2019-01-16T04:54:14Z" finished-at="2019-01-16T04:54:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="initTest()[pri:0, instance:com.pge.hybrid.testcases.yahoosuite.YahooSignUp@4bec1f0c]" name="initTest" is-config="true" duration-ms="260" started-at="2019-01-15T11:03:10Z" finished-at="2019-01-15T11:03:10Z">
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.pge.hybrid.testcases.yahoosuite.YahooSignUp@3aa9e816]" name="initTest" is-config="true" duration-ms="259" started-at="2019-01-16T04:54:15Z" finished-at="2019-01-16T04:54:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initTest -->
-        <test-method status="SKIP" signature="YahooSignUp(java.util.Hashtable)[pri:0, instance:com.pge.hybrid.testcases.yahoosuite.YahooSignUp@4bec1f0c]" name="YahooSignUp" duration-ms="46" started-at="2019-01-15T11:03:10Z" data-provider="getData" finished-at="2019-01-15T11:03:10Z">
+        <test-method status="SKIP" signature="YahooSignUp(java.util.Hashtable)[pri:0, instance:com.pge.hybrid.testcases.yahoosuite.YahooSignUp@3aa9e816]" name="YahooSignUp" duration-ms="4" started-at="2019-01-16T04:54:15Z" data-provider="getData" finished-at="2019-01-16T04:54:15Z">
           <params>
             <param index="0">
               <value>
@@ -56,23 +56,23 @@ at java.lang.Thread.run(Unknown Source)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- YahooSignUp -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.pge.hybrid.testcases.yahoosuite.YahooSignUp@4bec1f0c]" name="quit" is-config="true" duration-ms="932" started-at="2019-01-15T11:03:10Z" finished-at="2019-01-15T11:03:11Z">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.pge.hybrid.testcases.yahoosuite.YahooSignUp@3aa9e816]" name="quit" is-config="true" duration-ms="803" started-at="2019-01-16T04:54:15Z" finished-at="2019-01-16T04:54:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- com.pge.hybrid.testcases.yahoosuite.YahooSignUp -->
     </test> <!-- Yahoo Sign up Test -->
-    <test name="Yahoo Sign In Test" duration-ms="2678" started-at="2019-01-15T11:03:08Z" finished-at="2019-01-15T11:03:11Z">
+    <test name="Yahoo Sign In Test" duration-ms="34831" started-at="2019-01-16T04:54:14Z" finished-at="2019-01-16T04:54:49Z">
       <class name="com.pge.hybrid.testcases.yahoosuite.YahooSignIn">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.pge.hybrid.testcases.yahoosuite.YahooSignIn@5f341870]" name="init" is-config="true" duration-ms="1280" started-at="2019-01-15T11:03:08Z" finished-at="2019-01-15T11:03:10Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.pge.hybrid.testcases.yahoosuite.YahooSignIn@c39f790]" name="init" is-config="true" duration-ms="1218" started-at="2019-01-16T04:54:14Z" finished-at="2019-01-16T04:54:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="initTest()[pri:0, instance:com.pge.hybrid.testcases.yahoosuite.YahooSignIn@5f341870]" name="initTest" is-config="true" duration-ms="1072" started-at="2019-01-15T11:03:10Z" finished-at="2019-01-15T11:03:11Z">
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.pge.hybrid.testcases.yahoosuite.YahooSignIn@c39f790]" name="initTest" is-config="true" duration-ms="253" started-at="2019-01-16T04:54:15Z" finished-at="2019-01-16T04:54:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initTest -->
-        <test-method status="SKIP" signature="yahooSignIn(java.util.Hashtable)[pri:0, instance:com.pge.hybrid.testcases.yahoosuite.YahooSignIn@5f341870]" name="yahooSignIn" duration-ms="0" started-at="2019-01-15T11:03:11Z" data-provider="getData" finished-at="2019-01-15T11:03:11Z">
+        <test-method status="FAIL" signature="yahooSignIn(java.util.Hashtable)[pri:0, instance:com.pge.hybrid.testcases.yahoosuite.YahooSignIn@c39f790]" name="yahooSignIn" duration-ms="31698" started-at="2019-01-16T04:54:15Z" data-provider="getData" finished-at="2019-01-16T04:54:47Z">
           <params>
             <param index="0">
               <value>
@@ -80,13 +80,15 @@ at java.lang.Thread.run(Unknown Source)
               </value>
             </param>
           </params>
-          <exception class="org.testng.SkipException">
-            <message>
-              <![CDATA[Runmode is set to NO]]>
-            </message>
+          <exception class="java.lang.reflect.InvocationTargetException">
             <full-stacktrace>
-              <![CDATA[org.testng.SkipException: Runmode is set to NO
-at com.pge.hybrid.testcases.yahoosuite.YahooSignIn.yahooSignIn(YahooSignIn.java:21)
+              <![CDATA[java.lang.reflect.InvocationTargetException
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at com.pge.hybrid.driver.DriverScript.executeKeywords(DriverScript.java:47)
+at com.pge.hybrid.testcases.yahoosuite.YahooSignIn.yahooSignIn(YahooSignIn.java:23)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -107,94 +109,40 @@ at java.util.concurrent.FutureTask.run(Unknown Source)
 at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.AssertionError: The following asserts failed:
+Object Not Found yahoo_pwd_id
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at com.pge.hybrid.keywords.GenericKeywords.reportFailure(GenericKeywords.java:374)
+at com.pge.hybrid.keywords.GenericKeywords.getObject(GenericKeywords.java:307)
+at com.pge.hybrid.keywords.AppKeywords.yahooLogin(AppKeywords.java:61)
+... 26 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
+          </exception> <!-- java.lang.reflect.InvocationTargetException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- yahooSignIn -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.pge.hybrid.testcases.yahoosuite.YahooSignIn@5f341870]" name="quit" is-config="true" duration-ms="231" started-at="2019-01-15T11:03:11Z" finished-at="2019-01-15T11:03:11Z">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.pge.hybrid.testcases.yahoosuite.YahooSignIn@c39f790]" name="quit" is-config="true" duration-ms="1584" started-at="2019-01-16T04:54:47Z" finished-at="2019-01-16T04:54:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- com.pge.hybrid.testcases.yahoosuite.YahooSignIn -->
     </test> <!-- Yahoo Sign In Test -->
   </suite> <!-- Yahoo Suite -->
-  <suite name="My suite" duration-ms="0" started-at="2019-01-15T11:03:15Z" finished-at="2019-01-15T11:03:15Z">
+  <suite name="My suite" duration-ms="0" started-at="2019-01-16T04:57:46Z" finished-at="2019-01-16T04:57:46Z">
     <groups>
     </groups>
   </suite> <!-- My suite -->
-  <suite name="Gmail Suite" duration-ms="968" started-at="2019-01-15T11:03:11Z" finished-at="2019-01-15T11:03:12Z">
+  <suite name="Gmail Suite" duration-ms="60416" started-at="2019-01-16T04:54:49Z" finished-at="2019-01-16T04:55:49Z">
     <groups>
     </groups>
-    <test name="Gmail Sign In Test" duration-ms="579" started-at="2019-01-15T11:03:11Z" finished-at="2019-01-15T11:03:12Z">
-      <class name="com.pge.hybrid.testcases.gmailsuite.GmailLogin">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.pge.hybrid.testcases.gmailsuite.GmailLogin@192b07fd]" name="init" is-config="true" duration-ms="451" started-at="2019-01-15T11:03:11Z" finished-at="2019-01-15T11:03:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="initTest()[pri:0, instance:com.pge.hybrid.testcases.gmailsuite.GmailLogin@192b07fd]" name="initTest" is-config="true" duration-ms="0" started-at="2019-01-15T11:03:12Z" finished-at="2019-01-15T11:03:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initTest -->
-        <test-method status="SKIP" signature="gmaillogin(java.util.Hashtable)[pri:0, instance:com.pge.hybrid.testcases.gmailsuite.GmailLogin@192b07fd]" name="gmaillogin" duration-ms="15" started-at="2019-01-15T11:03:12Z" data-provider="getData" finished-at="2019-01-15T11:03:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Username=sharmashekhar86, ExpectedResult=Loginsuccess, url=https://www.google.com/intl/en-GB/gmail/about/#, Password=hello, Runmode=Y, Browser=Chrome}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.testng.SkipException">
-            <message>
-              <![CDATA[Runmode is set to NO]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.SkipException: Runmode is set to NO
-at com.pge.hybrid.testcases.gmailsuite.GmailLogin.gmaillogin(GmailLogin.java:21)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- gmaillogin -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.pge.hybrid.testcases.gmailsuite.GmailLogin@192b07fd]" name="quit" is-config="true" duration-ms="97" started-at="2019-01-15T11:03:12Z" finished-at="2019-01-15T11:03:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-      </class> <!-- com.pge.hybrid.testcases.gmailsuite.GmailLogin -->
-    </test> <!-- Gmail Sign In Test -->
-    <test name="Gmail Sign Up Test" duration-ms="968" started-at="2019-01-15T11:03:11Z" finished-at="2019-01-15T11:03:12Z">
+    <test name="Gmail Sign Up Test" duration-ms="864" started-at="2019-01-16T04:54:49Z" finished-at="2019-01-16T04:54:49Z">
       <class name="com.pge.hybrid.testcases.gmailsuite.GmailSignUp">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.pge.hybrid.testcases.gmailsuite.GmailSignUp@617faa95]" name="init" is-config="true" duration-ms="516" started-at="2019-01-15T11:03:11Z" finished-at="2019-01-15T11:03:12Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.pge.hybrid.testcases.gmailsuite.GmailSignUp@6ad5c04e]" name="init" is-config="true" duration-ms="421" started-at="2019-01-16T04:54:49Z" finished-at="2019-01-16T04:54:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="initTest()[pri:0, instance:com.pge.hybrid.testcases.gmailsuite.GmailSignUp@617faa95]" name="initTest" is-config="true" duration-ms="130" started-at="2019-01-15T11:03:12Z" finished-at="2019-01-15T11:03:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initTest -->
-        <test-method status="SKIP" signature="GmailSignUp(java.util.Hashtable)[pri:0, instance:com.pge.hybrid.testcases.gmailsuite.GmailSignUp@617faa95]" name="GmailSignUp" duration-ms="0" started-at="2019-01-15T11:03:12Z" data-provider="getData" finished-at="2019-01-15T11:03:12Z">
+        <test-method status="SKIP" signature="GmailSignUp(java.util.Hashtable)[pri:0, instance:com.pge.hybrid.testcases.gmailsuite.GmailSignUp@6ad5c04e]" name="GmailSignUp" duration-ms="11" started-at="2019-01-16T04:54:49Z" data-provider="getData" finished-at="2019-01-16T04:54:49Z">
           <params>
             <param index="0">
               <value>
@@ -235,15 +183,19 @@ at java.lang.Thread.run(Unknown Source)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GmailSignUp -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.pge.hybrid.testcases.gmailsuite.GmailSignUp@617faa95]" name="quit" is-config="true" duration-ms="127" started-at="2019-01-15T11:03:12Z" finished-at="2019-01-15T11:03:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method status="PASS" signature="initTest()[pri:0, instance:com.pge.hybrid.testcases.gmailsuite.GmailSignUp@617faa95]" name="initTest" is-config="true" duration-ms="0" started-at="2019-01-15T11:03:12Z" finished-at="2019-01-15T11:03:12Z">
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.pge.hybrid.testcases.gmailsuite.GmailSignUp@6ad5c04e]" name="initTest" is-config="true" duration-ms="0" started-at="2019-01-16T04:54:49Z" finished-at="2019-01-16T04:54:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initTest -->
-        <test-method status="SKIP" signature="GmailSignUp(java.util.Hashtable)[pri:0, instance:com.pge.hybrid.testcases.gmailsuite.GmailSignUp@617faa95]" name="GmailSignUp" duration-ms="0" started-at="2019-01-15T11:03:12Z" data-provider="getData" finished-at="2019-01-15T11:03:12Z">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.pge.hybrid.testcases.gmailsuite.GmailSignUp@6ad5c04e]" name="quit" is-config="true" duration-ms="205" started-at="2019-01-16T04:54:49Z" finished-at="2019-01-16T04:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.pge.hybrid.testcases.gmailsuite.GmailSignUp@6ad5c04e]" name="initTest" is-config="true" duration-ms="1" started-at="2019-01-16T04:54:49Z" finished-at="2019-01-16T04:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="SKIP" signature="GmailSignUp(java.util.Hashtable)[pri:0, instance:com.pge.hybrid.testcases.gmailsuite.GmailSignUp@6ad5c04e]" name="GmailSignUp" duration-ms="3" started-at="2019-01-16T04:54:49Z" data-provider="getData" finished-at="2019-01-16T04:54:49Z">
           <params>
             <param index="0">
               <value>
@@ -284,23 +236,93 @@ at java.lang.Thread.run(Unknown Source)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GmailSignUp -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.pge.hybrid.testcases.gmailsuite.GmailSignUp@617faa95]" name="quit" is-config="true" duration-ms="147" started-at="2019-01-15T11:03:12Z" finished-at="2019-01-15T11:03:12Z">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.pge.hybrid.testcases.gmailsuite.GmailSignUp@6ad5c04e]" name="quit" is-config="true" duration-ms="193" started-at="2019-01-16T04:54:49Z" finished-at="2019-01-16T04:54:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- com.pge.hybrid.testcases.gmailsuite.GmailSignUp -->
     </test> <!-- Gmail Sign Up Test -->
-  </suite> <!-- Gmail Suite -->
-  <suite name="Facebook Suite" duration-ms="1447" started-at="2019-01-15T11:03:12Z" finished-at="2019-01-15T11:03:14Z">
-    <groups>
-    </groups>
-    <test name="Facebook File Upload" duration-ms="1011" started-at="2019-01-15T11:03:12Z" finished-at="2019-01-15T11:03:13Z">
-      <class name="com.pge.hybrid.testcases.facebooksuite.UploadFiles">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.UploadFiles@5ec0a365]" name="init" is-config="true" duration-ms="831" started-at="2019-01-15T11:03:12Z" finished-at="2019-01-15T11:03:13Z">
+    <test name="Gmail Sign In Test" duration-ms="60416" started-at="2019-01-16T04:54:49Z" finished-at="2019-01-16T04:55:49Z">
+      <class name="com.pge.hybrid.testcases.gmailsuite.GmailLogin">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.pge.hybrid.testcases.gmailsuite.GmailLogin@2b80d80f]" name="init" is-config="true" duration-ms="329" started-at="2019-01-16T04:54:49Z" finished-at="2019-01-16T04:54:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="SKIP" signature="UploadFile(java.util.Hashtable)[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.UploadFiles@5ec0a365]" name="UploadFile" duration-ms="16" started-at="2019-01-15T11:03:13Z" data-provider="getData" finished-at="2019-01-15T11:03:13Z">
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.pge.hybrid.testcases.gmailsuite.GmailLogin@2b80d80f]" name="initTest" is-config="true" duration-ms="18" started-at="2019-01-16T04:54:49Z" finished-at="2019-01-16T04:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="FAIL" signature="gmaillogin(java.util.Hashtable)[pri:0, instance:com.pge.hybrid.testcases.gmailsuite.GmailLogin@2b80d80f]" name="gmaillogin" duration-ms="58887" started-at="2019-01-16T04:54:49Z" data-provider="getData" finished-at="2019-01-16T04:55:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=sharmashekhar86, ExpectedResult=Loginsuccess, url=https://www.google.com/intl/en-GB/gmail/about/#, Password=hello, Runmode=Y, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.reflect.InvocationTargetException">
+            <full-stacktrace>
+              <![CDATA[java.lang.reflect.InvocationTargetException
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at com.pge.hybrid.driver.DriverScript.executeKeywords(DriverScript.java:47)
+at com.pge.hybrid.testcases.gmailsuite.GmailLogin.gmaillogin(GmailLogin.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.AssertionError: The following asserts failed:
+Object Not Found username_id
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at com.pge.hybrid.keywords.GenericKeywords.reportFailure(GenericKeywords.java:374)
+at com.pge.hybrid.keywords.GenericKeywords.getObject(GenericKeywords.java:307)
+at com.pge.hybrid.keywords.AppKeywords.gmailLogin(AppKeywords.java:32)
+... 26 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.reflect.InvocationTargetException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmaillogin -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.pge.hybrid.testcases.gmailsuite.GmailLogin@2b80d80f]" name="quit" is-config="true" duration-ms="1179" started-at="2019-01-16T04:55:48Z" finished-at="2019-01-16T04:55:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.pge.hybrid.testcases.gmailsuite.GmailLogin -->
+    </test> <!-- Gmail Sign In Test -->
+  </suite> <!-- Gmail Suite -->
+  <suite name="Facebook Suite" duration-ms="115937" started-at="2019-01-16T04:55:49Z" finished-at="2019-01-16T04:57:45Z">
+    <groups>
+    </groups>
+    <test name="Facebook File Upload" duration-ms="751" started-at="2019-01-16T04:55:49Z" finished-at="2019-01-16T04:55:50Z">
+      <class name="com.pge.hybrid.testcases.facebooksuite.UploadFiles">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.UploadFiles@23223dd8]" name="init" is-config="true" duration-ms="575" started-at="2019-01-16T04:55:49Z" finished-at="2019-01-16T04:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.UploadFiles@23223dd8]" name="initTest" is-config="true" duration-ms="1" started-at="2019-01-16T04:55:50Z" finished-at="2019-01-16T04:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="SKIP" signature="UploadFile(java.util.Hashtable)[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.UploadFiles@23223dd8]" name="UploadFile" duration-ms="27" started-at="2019-01-16T04:55:50Z" data-provider="getData" finished-at="2019-01-16T04:55:50Z">
           <params>
             <param index="0">
               <value>
@@ -341,76 +363,23 @@ at java.lang.Thread.run(Unknown Source)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UploadFile -->
-        <test-method status="PASS" signature="initTest()[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.UploadFiles@5ec0a365]" name="initTest" is-config="true" duration-ms="0" started-at="2019-01-15T11:03:13Z" finished-at="2019-01-15T11:03:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initTest -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.UploadFiles@5ec0a365]" name="quit" is-config="true" duration-ms="146" started-at="2019-01-15T11:03:13Z" finished-at="2019-01-15T11:03:13Z">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.UploadFiles@23223dd8]" name="quit" is-config="true" duration-ms="145" started-at="2019-01-16T04:55:50Z" finished-at="2019-01-16T04:55:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- com.pge.hybrid.testcases.facebooksuite.UploadFiles -->
     </test> <!-- Facebook File Upload -->
-    <test name="Facebook Sign In Test" duration-ms="1447" started-at="2019-01-15T11:03:12Z" finished-at="2019-01-15T11:03:14Z">
+    <test name="Facebook Sign In Test" duration-ms="115937" started-at="2019-01-16T04:55:49Z" finished-at="2019-01-16T04:57:45Z">
       <class name="com.pge.hybrid.testcases.facebooksuite.FacebookTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.FacebookTest@71318ec4]" name="init" is-config="true" duration-ms="306" started-at="2019-01-15T11:03:12Z" finished-at="2019-01-15T11:03:13Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.FacebookTest@649d209a]" name="init" is-config="true" duration-ms="249" started-at="2019-01-16T04:55:49Z" finished-at="2019-01-16T04:55:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="initTest()[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.FacebookTest@71318ec4]" name="initTest" is-config="true" duration-ms="143" started-at="2019-01-15T11:03:13Z" finished-at="2019-01-15T11:03:13Z">
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.FacebookTest@649d209a]" name="initTest" is-config="true" duration-ms="9" started-at="2019-01-16T04:55:49Z" finished-at="2019-01-16T04:55:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initTest -->
-        <test-method status="SKIP" signature="AppScanSite(java.util.Hashtable)[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.FacebookTest@71318ec4]" name="AppScanSite" duration-ms="0" started-at="2019-01-15T11:03:13Z" data-provider="getData" finished-at="2019-01-15T11:03:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Username=jsmith, url=http://demo.testfire.net/, Password=demo1234, Runmode=Y, Browser=Chrome}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.testng.SkipException">
-            <message>
-              <![CDATA[Runmode is set to NO]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.SkipException: Runmode is set to NO
-at com.pge.hybrid.testcases.facebooksuite.FacebookTest.AppScanSite(FacebookTest.java:35)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AppScanSite -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.FacebookTest@71318ec4]" name="quit" is-config="true" duration-ms="82" started-at="2019-01-15T11:03:13Z" finished-at="2019-01-15T11:03:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.FacebookTest@71318ec4]" name="quit" is-config="true" duration-ms="163" started-at="2019-01-15T11:03:14Z" finished-at="2019-01-15T11:03:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method status="SKIP" signature="facebookLogin(java.util.Hashtable)[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.FacebookTest@71318ec4]" name="facebookLogin" duration-ms="0" started-at="2019-01-15T11:03:14Z" data-provider="getData" finished-at="2019-01-15T11:03:14Z">
+        <test-method status="FAIL" signature="facebookLogin(java.util.Hashtable)[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.FacebookTest@649d209a]" name="facebookLogin" duration-ms="60069" started-at="2019-01-16T04:55:49Z" data-provider="getData" finished-at="2019-01-16T04:56:49Z">
           <params>
             <param index="0">
               <value>
@@ -418,13 +387,15 @@ at java.lang.Thread.run(Unknown Source)
               </value>
             </param>
           </params>
-          <exception class="org.testng.SkipException">
-            <message>
-              <![CDATA[Runmode is set to NO]]>
-            </message>
+          <exception class="java.lang.reflect.InvocationTargetException">
             <full-stacktrace>
-              <![CDATA[org.testng.SkipException: Runmode is set to NO
-at com.pge.hybrid.testcases.facebooksuite.FacebookTest.facebookLogin(FacebookTest.java:22)
+              <![CDATA[java.lang.reflect.InvocationTargetException
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at com.pge.hybrid.driver.DriverScript.executeKeywords(DriverScript.java:47)
+at com.pge.hybrid.testcases.facebooksuite.FacebookTest.facebookLogin(FacebookTest.java:24)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -445,25 +416,32 @@ at java.util.concurrent.FutureTask.run(Unknown Source)
 at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.AssertionError: The following asserts failed:
+Object Not Found photo_vid_xpath
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at com.pge.hybrid.keywords.GenericKeywords.reportFailure(GenericKeywords.java:374)
+at com.pge.hybrid.keywords.GenericKeywords.getObject(GenericKeywords.java:307)
+at com.pge.hybrid.keywords.GenericKeywords.click(GenericKeywords.java:150)
+... 26 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
+          </exception> <!-- java.lang.reflect.InvocationTargetException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- facebookLogin -->
-        <test-method status="PASS" signature="initTest()[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.FacebookTest@71318ec4]" name="initTest" is-config="true" duration-ms="0" started-at="2019-01-15T11:03:14Z" finished-at="2019-01-15T11:03:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initTest -->
-        <test-method status="PASS" signature="initTest()[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.FacebookTest@71318ec4]" name="initTest" is-config="true" duration-ms="16" started-at="2019-01-15T11:03:14Z" finished-at="2019-01-15T11:03:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initTest -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.FacebookTest@71318ec4]" name="quit" is-config="true" duration-ms="92" started-at="2019-01-15T11:03:14Z" finished-at="2019-01-15T11:03:14Z">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.FacebookTest@649d209a]" name="quit" is-config="true" duration-ms="1160" started-at="2019-01-16T04:56:49Z" finished-at="2019-01-16T04:56:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="SKIP" signature="facebookLogin(java.util.Hashtable)[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.FacebookTest@71318ec4]" name="facebookLogin" duration-ms="0" started-at="2019-01-15T11:03:14Z" data-provider="getData" finished-at="2019-01-15T11:03:14Z">
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.FacebookTest@649d209a]" name="initTest" is-config="true" duration-ms="1" started-at="2019-01-16T04:56:51Z" finished-at="2019-01-16T04:56:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.FacebookTest@649d209a]" name="quit" is-config="true" duration-ms="165" started-at="2019-01-16T04:56:51Z" finished-at="2019-01-16T04:56:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="SKIP" signature="facebookLogin(java.util.Hashtable)[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.FacebookTest@649d209a]" name="facebookLogin" duration-ms="0" started-at="2019-01-16T04:56:51Z" data-provider="getData" finished-at="2019-01-16T04:56:51Z">
           <params>
             <param index="0">
               <value>
@@ -504,6 +482,64 @@ at java.lang.Thread.run(Unknown Source)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- facebookLogin -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.FacebookTest@649d209a]" name="initTest" is-config="true" duration-ms="1" started-at="2019-01-16T04:56:51Z" finished-at="2019-01-16T04:56:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="FAIL" signature="AppScanSite(java.util.Hashtable)[pri:1, instance:com.pge.hybrid.testcases.facebooksuite.FacebookTest@649d209a]" name="AppScanSite" duration-ms="53167" started-at="2019-01-16T04:56:51Z" data-provider="getData" finished-at="2019-01-16T04:57:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=jsmith, url=http://demo.testfire.net/, Password=demo1234, Runmode=Y, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.reflect.InvocationTargetException">
+            <full-stacktrace>
+              <![CDATA[java.lang.reflect.InvocationTargetException
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at com.pge.hybrid.driver.DriverScript.executeKeywords(DriverScript.java:47)
+at com.pge.hybrid.testcases.facebooksuite.FacebookTest.AppScanSite(FacebookTest.java:37)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.AssertionError: The following asserts failed:
+Object Not Found SignIn_xpath
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at com.pge.hybrid.keywords.GenericKeywords.reportFailure(GenericKeywords.java:374)
+at com.pge.hybrid.keywords.GenericKeywords.getObject(GenericKeywords.java:307)
+at com.pge.hybrid.keywords.GenericKeywords.click(GenericKeywords.java:150)
+... 26 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.reflect.InvocationTargetException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppScanSite -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.pge.hybrid.testcases.facebooksuite.FacebookTest@649d209a]" name="quit" is-config="true" duration-ms="1098" started-at="2019-01-16T04:57:44Z" finished-at="2019-01-16T04:57:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
       </class> <!-- com.pge.hybrid.testcases.facebooksuite.FacebookTest -->
     </test> <!-- Facebook Sign In Test -->
   </suite> <!-- Facebook Suite -->

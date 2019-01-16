@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Gmail Suite]" parallel="tests">
-  <test thread-count="5" name="Gmail Sign In Test(failed)" parallel="tests">
-    <classes>
-      <class name="com.pge.hybrid.testcases.gmailsuite.GmailLogin">
-        <methods>
-          <include name="quit"/>
-          <include name="gmaillogin" invocation-numbers="0"/>
-          <include name="init"/>
-          <include name="initTest"/>
-        </methods>
-      </class> <!-- com.pge.hybrid.testcases.gmailsuite.GmailLogin -->
-    </classes>
-  </test> <!-- Gmail Sign In Test(failed) -->
   <test thread-count="5" name="Gmail Sign Up Test(failed)" parallel="tests">
     <classes>
       <class name="com.pge.hybrid.testcases.gmailsuite.GmailSignUp">
@@ -25,4 +13,16 @@
       </class> <!-- com.pge.hybrid.testcases.gmailsuite.GmailSignUp -->
     </classes>
   </test> <!-- Gmail Sign Up Test(failed) -->
+  <test thread-count="5" name="Gmail Sign In Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.pge.hybrid.testcases.gmailsuite.GmailLogin">
+        <methods>
+          <include name="quit"/>
+          <include name="gmaillogin" invocation-numbers="0"/>
+          <include name="init"/>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.pge.hybrid.testcases.gmailsuite.GmailLogin -->
+    </classes>
+  </test> <!-- Gmail Sign In Test(failed) -->
 </suite> <!-- Failed suite [Gmail Suite] -->

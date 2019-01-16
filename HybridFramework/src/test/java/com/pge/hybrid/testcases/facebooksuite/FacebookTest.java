@@ -13,7 +13,7 @@ import com.pge.hybrid.util.DataUtil;
 
 public class FacebookTest extends BaseTest{
 
-	@Test(dataProvider="getData")
+	@Test(dataProvider="getData",priority=0)
 	public void facebookLogin(Hashtable <String,String> data ) throws Exception {
 		test.log(Status.INFO, "Starting "+ testName);
 
@@ -24,12 +24,12 @@ public class FacebookTest extends BaseTest{
 	    ds.executeKeywords(testName, xls, data);
 	}
 	
-	@Test(dataProvider="getData")
+	@Test(dataProvider="getData",priority=1)
 	public void AppScanSite(Hashtable <String,String> data ) throws Exception {
 		test.log(Status.INFO, "Starting "+ testName);
 
-		File file = new File("C:\\test\\test.txt");
-		file.createNewFile();
+		//File file = new File("C:\\test\\test.txt");
+		//file.createNewFile();
 		if(DataUtil.isSkip(testName, xls) ||data.get(Constants.RUNMODE_COL).equals(Constants.RUNMODE_NO)){
 			test.log(Status.SKIP, "Runmode is set to NO");
 			throw new SkipException("Runmode is set to NO");
