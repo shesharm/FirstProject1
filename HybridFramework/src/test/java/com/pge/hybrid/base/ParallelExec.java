@@ -19,11 +19,13 @@ public class ParallelExec {
 		TestNG testng = new TestNG(); 
 		testng.setTestSuites(Arrays.asList(new String[] {System.getProperty("user.dir")+"//src/test/resources/testng.xml"}));
 		if(prop1.getProperty("gridRun").equals("Y")) {
+			System.out.println("Grid flag is Y");
 			testng.setSuiteThreadPoolSize(3);
 		}else {
 			System.out.println("Grid flag is N");
 			testng.setSuiteThreadPoolSize(1);
 		}
+		//testng.setSuiteThreadPoolSize(1);
 		testng.run();
 
 	}

@@ -136,7 +136,7 @@
           	<target>1.8</target>
           </configuration>
         </plugin>
-        <plugin>
+        <!-- <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
           <version>2.22.1</version>
           <configuration>
@@ -147,7 +147,32 @@
           		<suiteXmlFile>./src/test/resources/testng.xml</suiteXmlFile>
           	</suiteXmlFiles>
           </configuration>
-        </plugin>
+        </plugin>  -->
+          <plugin>  
+			   <groupId>org.codehaus.mojo</groupId>  
+			   <artifactId>exec-maven-plugin</artifactId>  
+			   <version>1.6.0</version>  
+			   <executions>  
+			    <execution>  
+			     <phase>test</phase>  
+			     <goals>  
+			      <goal>java</goal>  
+			     </goals>  
+			     <configuration>  
+			      <!-- <mainClass>src.test.java.com.pge.hybrid.base.ParallelExec</mainClass> 
+			      <classpathScope>test</classpathScope> -->
+			       <includeProjectDependencies>false</includeProjectDependencies>
+          <includePluginDependencies>true</includePluginDependencies>
+          <executableDependency>
+   <groupId>com.pge.hybrid</groupId>
+  <artifactId>HybridFramework</artifactId>
+          </executableDependency>
+          <mainClass>com.pge.hybrid.base.ParallelExec</mainClass>
+<classpathScope>test</classpathScope>
+			     </configuration>  
+			    </execution>  
+			   </executions>  
+			  </plugin>
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
           <version>3.0.2</version>

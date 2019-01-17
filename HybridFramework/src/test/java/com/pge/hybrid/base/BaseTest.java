@@ -34,6 +34,7 @@ public class BaseTest {
 	@BeforeTest
 	public void init(){
 		// init testName
+		System.out.println("It is init");
 		System.out.println("*** "+ this.getClass().getSimpleName());
 		testName=this.getClass().getSimpleName();
 		String arr[] = this.getClass().getPackage().getName().split("\\.");

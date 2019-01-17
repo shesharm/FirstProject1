@@ -108,7 +108,7 @@
 	       <java classname="com.pge.hybrid.mail.ZipAndSendMail" classpath="${test.dest}" classpathref="classpath_jars" />
 	    </target>
 	
-	<target name="run_parallel" >
+	<target name="run_parallel" depends="compile">
 		       <java classname="com.pge.hybrid.base.ParallelExec" classpath="${test.dest}" classpathref="classpath_jars" />
 		    </target>
 </project>

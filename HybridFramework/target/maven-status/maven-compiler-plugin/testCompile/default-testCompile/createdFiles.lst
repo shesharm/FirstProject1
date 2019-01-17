@@ -1,0 +1,8 @@
+com\pge\hybrid\testcases\yahoosuite\YahooSignIn.class
+com\pge\hybrid\testcases\yahoosuite\YahooSignUp.class
+com\pge\hybrid\base\BaseTest.class
+com\pge\hybrid\testcases\facebooksuite\UploadFiles.class
+com\pge\hybrid\testcases\facebooksuite\FacebookTest.class
+com\pge\hybrid\testcases\gmailsuite\GmailSignUp.class
+com\pge\hybrid\base\ParallelExec.class
+com\pge\hybrid\testcases\gmailsuite\GmailLogin.class

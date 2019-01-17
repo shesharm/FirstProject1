@@ -1,6 +1,6 @@
-1547614458586	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Shekhar\\AppData\\Local\\Temp\\rust_mozprofile.PzKJUtEjkbJC"
-1547614462449	Marionette	INFO	Listening on port 49843
-1547614462594	Marionette	WARN	TLS certificate errors will be ignored for this session
+1547653686668	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Shekhar\\AppData\\Local\\Temp\\rust_mozprofile.f4EpubIu8fht"
+1547653690227	Marionette	INFO	Listening on port 55089
+1547653690456	Marionette	WARN	TLS certificate errors will be ignored for this session
 console.error: BroadcastService: 
   receivedBroadcastMessage: handler for
   remote-settings/monitor_changes
@@ -9,4 +9,6 @@ console.error: BroadcastService:
   Stack:
     remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
 
-1547614487497	Marionette	INFO	Stopped listening on port 49843
+1547653714688	Marionette	INFO	Stopped listening on port 55089
+[Parent 5932, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 5932, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346

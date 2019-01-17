@@ -91,7 +91,6 @@ public class GenericKeywords {
 		test.log(Status.INFO,"Opening Browser "+browser );
 		if(prop.getProperty("gridRun").equals("Y")) {
 			// run on grid
-			
 			DesiredCapabilities cap=null;
 			if(browser.equals("Mozilla")) {
 				cap = DesiredCapabilities.firefox();
