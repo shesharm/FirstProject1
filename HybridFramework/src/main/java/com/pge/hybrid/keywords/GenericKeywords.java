@@ -137,7 +137,7 @@ public class GenericKeywords {
 	}
 	
 	public void navigate(){
-		//test.log(Status.INFO,"Navigating to website "+envProp.getProperty(objectKey));
+		test.log(Status.INFO,"Navigating to website "+envProp.getProperty(objectKey));
 		if(data.get("url")=="")
 			driver.get(envProp.getProperty(objectKey));
 		else

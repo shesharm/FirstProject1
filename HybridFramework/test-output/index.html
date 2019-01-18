@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">4 suites, 4 failed tests</span>
+      <span class="top-banner-font-1">4 suites, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -209,12 +209,12 @@
                     <div class="method-list-content skipped suite-Gmail_Suite">
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Gmail_Suite" title="com.pge.hybrid.testcases.gmailsuite.GmailSignUp" hash-for-method="GmailSignUp({Runmode=Y, FN=Pankaj, LN=Jasrotia, Browser=Mozilla})">GmailSignUp({Runmode=Y, FN=Pankaj, LN=Jasrotia, Browser=Mozilla})</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Gmail_Suite" title="com.pge.hybrid.testcases.gmailsuite.GmailSignUp" hash-for-method="GmailSignUp({Runmode=Y, FN=Shekhar, LN=Sharma, Browser=Chrome})">GmailSignUp({Runmode=Y, FN=Shekhar, LN=Sharma, Browser=Chrome})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Gmail_Suite" title="com.pge.hybrid.testcases.gmailsuite.GmailSignUp" hash-for-method="GmailSignUp({Runmode=Y, FN=Shekhar, LN=Sharma, Browser=Chrome})">GmailSignUp({Runmode=Y, FN=Shekhar, LN=Sharma, Browser=Chrome})</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Gmail_Suite" title="com.pge.hybrid.testcases.gmailsuite.GmailSignUp" hash-for-method="GmailSignUp({Runmode=Y, FN=Pankaj, LN=Jasrotia, Browser=Mozilla})">GmailSignUp({Runmode=Y, FN=Pankaj, LN=Jasrotia, Browser=Mozilla})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-Gmail_Suite -->
@@ -282,7 +282,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 2 failed,  2 skipped,  </span>
+                    <span class="method-stats">4 methods, 1 failed,  2 skipped,  1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -291,11 +291,6 @@
                       <a href="#" panel-name="suite-Facebook_Suite" class="show-methods failed suite-Facebook_Suite"> (show)</a> <!-- show-methods failed suite-Facebook_Suite -->
                     </span>
                     <div class="method-list-content failed suite-Facebook_Suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Facebook_Suite" title="com.pge.hybrid.testcases.facebooksuite.FacebookTest" hash-for-method="AppScanSite({Username=jsmith, url=http://demo.testfire.net/, Password=demo1234, Runmode=Y, Browser=Chrome})">AppScanSite({Username=jsmith, url=http://demo.testfire.net/, Password=demo1234, Runmode=Y, Browser=Chrome})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Facebook_Suite" title="com.pge.hybrid.testcases.facebooksuite.FacebookTest" hash-for-method="facebookLogin({Username=shekhar_20_nice@yahoo.co.in, ExpectedResult=Success, url=https://www.facebook.com, filePat...)">facebookLogin({Username=shekhar_20_nice@yahoo.co.in, ExpectedResult=Success, url=https://www.facebook.com, filePat...)</a> <!-- method navigator-link -->
@@ -321,6 +316,20 @@
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-Facebook_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Facebook_Suite" class="hide-methods passed suite-Facebook_Suite"> (hide)</a> <!-- hide-methods passed suite-Facebook_Suite -->
+                      <a href="#" panel-name="suite-Facebook_Suite" class="show-methods passed suite-Facebook_Suite"> (show)</a> <!-- show-methods passed suite-Facebook_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Facebook_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Facebook_Suite" title="com.pge.hybrid.testcases.facebooksuite.FacebookTest" hash-for-method="AppScanSite({Username=jsmith, url=http://demo.testfire.net/, Password=demo1234, Runmode=Y, Browser=Chrome})">AppScanSite({Username=jsmith, url=http://demo.testfire.net/, Password=demo1234, Runmode=Y, Browser=Chrome})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Facebook_Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -353,8 +362,8 @@
 	at java.lang.Thread.run(Thread.java:748)
 Caused by: java.lang.AssertionError: The following asserts failed:
 	Object Not Found yahoo_pwd_id
-	at com.pge.hybrid.keywords.GenericKeywords.reportFailure(GenericKeywords.java:374)
-	at com.pge.hybrid.keywords.GenericKeywords.getObject(GenericKeywords.java:307)
+	at com.pge.hybrid.keywords.GenericKeywords.reportFailure(GenericKeywords.java:373)
+	at com.pge.hybrid.keywords.GenericKeywords.getObject(GenericKeywords.java:306)
 	at com.pge.hybrid.keywords.AppKeywords.yahooLogin(AppKeywords.java:61)
 	... 26 more
 ... Removed 21 stack frames
@@ -411,10 +420,10 @@ Caused by: java.lang.AssertionError: The following asserts failed:
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
 Caused by: java.lang.AssertionError: The following asserts failed:
-	Object Not Found username_id
-	at com.pge.hybrid.keywords.GenericKeywords.reportFailure(GenericKeywords.java:374)
-	at com.pge.hybrid.keywords.GenericKeywords.getObject(GenericKeywords.java:307)
-	at com.pge.hybrid.keywords.AppKeywords.gmailLogin(AppKeywords.java:32)
+	Object Not Found signin_xpath
+	at com.pge.hybrid.keywords.GenericKeywords.reportFailure(GenericKeywords.java:373)
+	at com.pge.hybrid.keywords.GenericKeywords.getObject(GenericKeywords.java:306)
+	at com.pge.hybrid.keywords.GenericKeywords.click(GenericKeywords.java:149)
 	... 26 more
 ... Removed 21 stack frames
 </div> <!-- stack-trace -->
@@ -430,10 +439,10 @@ Caused by: java.lang.AssertionError: The following asserts failed:
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="GmailSignUp({Runmode=Y, FN=Pankaj, LN=Jasrotia, Browser=Mozilla})">
-                  </a> <!-- GmailSignUp({Runmode=Y, FN=Pankaj, LN=Jasrotia, Browser=Mozilla}) -->
+                  <a name="GmailSignUp({Runmode=Y, FN=Shekhar, LN=Sharma, Browser=Chrome})">
+                  </a> <!-- GmailSignUp({Runmode=Y, FN=Shekhar, LN=Sharma, Browser=Chrome}) -->
                   <span class="method-name">GmailSignUp</span>
-                  <span class="parameters">({Runmode=Y, FN=Pankaj, LN=Jasrotia, Browser=Mozilla})</span>
+                  <span class="parameters">({Runmode=Y, FN=Shekhar, LN=Sharma, Browser=Chrome})</span>
                   <div class="stack-trace">org.testng.SkipException: Runmode is set to NO
 	at com.pge.hybrid.testcases.gmailsuite.GmailSignUp.GmailSignUp(GmailSignUp.java:21)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
@@ -446,10 +455,10 @@ Caused by: java.lang.AssertionError: The following asserts failed:
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="GmailSignUp({Runmode=Y, FN=Shekhar, LN=Sharma, Browser=Chrome})">
-                  </a> <!-- GmailSignUp({Runmode=Y, FN=Shekhar, LN=Sharma, Browser=Chrome}) -->
+                  <a name="GmailSignUp({Runmode=Y, FN=Pankaj, LN=Jasrotia, Browser=Mozilla})">
+                  </a> <!-- GmailSignUp({Runmode=Y, FN=Pankaj, LN=Jasrotia, Browser=Mozilla}) -->
                   <span class="method-name">GmailSignUp</span>
-                  <span class="parameters">({Runmode=Y, FN=Shekhar, LN=Sharma, Browser=Chrome})</span>
+                  <span class="parameters">({Runmode=Y, FN=Pankaj, LN=Jasrotia, Browser=Mozilla})</span>
                   <div class="stack-trace">org.testng.SkipException: Runmode is set to NO
 	at com.pge.hybrid.testcases.gmailsuite.GmailSignUp.GmailSignUp(GmailSignUp.java:21)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
@@ -472,29 +481,6 @@ Caused by: java.lang.AssertionError: The following asserts failed:
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="AppScanSite({Username=jsmith, url=http://demo.testfire.net/, Password=demo1234, Runmode=Y, Browser=Chrome})">
-                  </a> <!-- AppScanSite({Username=jsmith, url=http://demo.testfire.net/, Password=demo1234, Runmode=Y, Browser=Chrome}) -->
-                  <span class="method-name">AppScanSite</span>
-                  <span class="parameters">({Username=jsmith, url=http://demo.testfire.net/, Password=demo1234, Runmode=Y, Browser=Chrome})</span>
-                  <div class="stack-trace">java.lang.reflect.InvocationTargetException
-	at com.pge.hybrid.driver.DriverScript.executeKeywords(DriverScript.java:47)
-	at com.pge.hybrid.testcases.facebooksuite.FacebookTest.AppScanSite(FacebookTest.java:37)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.AssertionError: The following asserts failed:
-	Object Not Found SignIn_xpath
-	at com.pge.hybrid.keywords.GenericKeywords.reportFailure(GenericKeywords.java:374)
-	at com.pge.hybrid.keywords.GenericKeywords.getObject(GenericKeywords.java:307)
-	at com.pge.hybrid.keywords.GenericKeywords.click(GenericKeywords.java:150)
-	... 26 more
-... Removed 21 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="facebookLogin({Username=shekhar_20_nice@yahoo.co.in, ExpectedResult=Success, url=https://www.facebook.com, filePat...)">
                   </a> <!-- facebookLogin({Username=shekhar_20_nice@yahoo.co.in, ExpectedResult=Success, url=https://www.facebook.com, filePat...) -->
                   <span class="method-name">facebookLogin</span>
@@ -508,9 +494,9 @@ Caused by: java.lang.AssertionError: The following asserts failed:
 	at java.lang.Thread.run(Thread.java:748)
 Caused by: java.lang.AssertionError: The following asserts failed:
 	Object Not Found photo_vid_xpath
-	at com.pge.hybrid.keywords.GenericKeywords.reportFailure(GenericKeywords.java:374)
-	at com.pge.hybrid.keywords.GenericKeywords.getObject(GenericKeywords.java:307)
-	at com.pge.hybrid.keywords.GenericKeywords.click(GenericKeywords.java:150)
+	at com.pge.hybrid.keywords.GenericKeywords.reportFailure(GenericKeywords.java:373)
+	at com.pge.hybrid.keywords.GenericKeywords.getObject(GenericKeywords.java:306)
+	at com.pge.hybrid.keywords.GenericKeywords.click(GenericKeywords.java:149)
 	... 26 more
 ... Removed 21 stack frames
 </div> <!-- stack-trace -->
@@ -518,30 +504,6 @@ Caused by: java.lang.AssertionError: The following asserts failed:
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Facebook_Suite-class-failed -->
-          <div class="suite-Facebook_Suite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">com.pge.hybrid.testcases.facebooksuite.UploadFiles</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="UploadFile({Username=, ExpectedResult=, url=https://imgur.com/upload, filePath=C:\\HybridFramework\\HybridFrame...)">
-                  </a> <!-- UploadFile({Username=, ExpectedResult=, url=https://imgur.com/upload, filePath=C:\\HybridFramework\\HybridFrame...) -->
-                  <span class="method-name">UploadFile</span>
-                  <span class="parameters">({Username=, ExpectedResult=, url=https://imgur.com/upload, filePath=C:\\HybridFramework\\HybridFramework\\Files\\FileUpload.exe, Password=, Runmode=Y, Browser=Chrome})</span>
-                  <div class="stack-trace">org.testng.SkipException: Runmode is set to NO
-	at com.pge.hybrid.testcases.facebooksuite.UploadFiles.UploadFile(UploadFiles.java:23)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 16 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Facebook_Suite-class-skipped -->
           <div class="suite-Facebook_Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
@@ -566,6 +528,46 @@ Caused by: java.lang.AssertionError: The following asserts failed:
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Facebook_Suite-class-skipped -->
+          <div class="suite-Facebook_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.pge.hybrid.testcases.facebooksuite.UploadFiles</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UploadFile({Username=, ExpectedResult=, url=https://imgur.com/upload, filePath=C:\\HybridFramework\\HybridFrame...)">
+                  </a> <!-- UploadFile({Username=, ExpectedResult=, url=https://imgur.com/upload, filePath=C:\\HybridFramework\\HybridFrame...) -->
+                  <span class="method-name">UploadFile</span>
+                  <span class="parameters">({Username=, ExpectedResult=, url=https://imgur.com/upload, filePath=C:\\HybridFramework\\HybridFramework\\Files\\FileUpload.exe, Password=, Runmode=Y, Browser=Chrome})</span>
+                  <div class="stack-trace">org.testng.SkipException: Runmode is set to NO
+	at com.pge.hybrid.testcases.facebooksuite.UploadFiles.UploadFile(UploadFiles.java:23)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Facebook_Suite-class-skipped -->
+          <div class="suite-Facebook_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.pge.hybrid.testcases.facebooksuite.FacebookTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AppScanSite({Username=jsmith, url=http://demo.testfire.net/, Password=demo1234, Runmode=Y, Browser=Chrome})">
+                  </a> <!-- AppScanSite({Username=jsmith, url=http://demo.testfire.net/, Password=demo1234, Runmode=Y, Browser=Chrome}) -->
+                  <span class="method-name">AppScanSite</span>
+                  <span class="parameters">({Username=jsmith, url=http://demo.testfire.net/, Password=demo1234, Runmode=Y, Browser=Chrome})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Facebook_Suite-class-passed -->
         </div> <!-- panel Facebook_Suite -->
         <div panel-name="test-xml-Yahoo_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -754,7 +756,7 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'yahooSignIn')
 data.setCell(0, 2, 'com.pge.hybrid.testcases.yahoosuite.YahooSignIn')
-data.setCell(0, 3, 99515);
+data.setCell(0, 3, 76887);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'YahooSignUp')
 data.setCell(1, 2, 'com.pge.hybrid.testcases.yahoosuite.YahooSignUp')
@@ -811,20 +813,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'gmaillogin')
 data.setCell(0, 2, 'com.pge.hybrid.testcases.gmailsuite.GmailLogin')
-data.setCell(0, 3, 66903);
+data.setCell(0, 3, 40526);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'GmailSignUp')
 data.setCell(1, 2, 'com.pge.hybrid.testcases.gmailsuite.GmailSignUp')
-data.setCell(1, 3, 4);
+data.setCell(1, 3, 0);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'GmailSignUp')
 data.setCell(2, 2, 'com.pge.hybrid.testcases.gmailsuite.GmailSignUp')
-data.setCell(2, 3, 4);
+data.setCell(2, 3, 0);
 window.suiteTableData['Gmail_Suite']= { tableData: data, tableDiv: 'times-div-Gmail_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 40 seconds</span>
               <div id="times-div-Gmail_Suite">
               </div> <!-- times-div-Gmail_Suite -->
             </div> <!-- times-div -->
@@ -848,15 +850,15 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'facebookLogin')
 data.setCell(0, 2, 'com.pge.hybrid.testcases.facebooksuite.FacebookTest')
-data.setCell(0, 3, 70439);
+data.setCell(0, 3, 68747);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'AppScanSite')
 data.setCell(1, 2, 'com.pge.hybrid.testcases.facebooksuite.FacebookTest')
-data.setCell(1, 3, 54955);
+data.setCell(1, 3, 36851);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'UploadFile')
 data.setCell(2, 2, 'com.pge.hybrid.testcases.facebooksuite.UploadFiles')
-data.setCell(2, 3, 4);
+data.setCell(2, 3, 16);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'facebookLogin')
 data.setCell(3, 2, 'com.pge.hybrid.testcases.facebooksuite.FacebookTest')
@@ -865,7 +867,7 @@ window.suiteTableData['Facebook_Suite']= { tableData: data, tableDiv: 'times-div
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Facebook_Suite">
               </div> <!-- times-div-Facebook_Suite -->
             </div> <!-- times-div -->
@@ -943,48 +945,42 @@ return data;
               <div class="chronological-class-name">com.pge.hybrid.testcases.yahoosuite.YahooSignUp</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">init</span>
-                <span class="method-start">67 ms</span>
+                <span class="method-start">51 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.pge.hybrid.testcases.yahoosuite.YahooSignIn</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">initTest</span>
-                <span class="method-start">4124 ms</span>
+                <span class="method-start">3877 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">yahooSignIn({Username=shekhar, url=https://login.yahoo.com/, Password=1234, Runmode=Y, Browser=Mozilla})</span>
+                <span class="method-start">4226 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.pge.hybrid.testcases.yahoosuite.YahooSignUp</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">initTest</span>
-                <span class="method-start">4137 ms</span>
+                <span class="method-start">5199 ms</span>
               </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.pge.hybrid.testcases.yahoosuite.YahooSignIn</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">yahooSignIn({Username=shekhar, url=https://login.yahoo.com/, Password=1234, Runmode=Y, Browser=Mozilla})</span>
-                <span class="method-start">4509 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.pge.hybrid.testcases.yahoosuite.YahooSignUp</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">YahooSignUp({Year=1986.0, LN=Sharma, FN=Shekhar, BirthMonth=May, Runmode=Y, Mobile=9.999999999E9, Email=sharmash...)</span>
-                <span class="method-start">5615 ms</span>
+                <span class="method-start">5232 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">5615 ms</span>
+                <span class="method-start">5232 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.pge.hybrid.testcases.yahoosuite.YahooSignIn</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">104028 ms</span>
+                <span class="method-start">81113 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
@@ -1018,50 +1014,56 @@ return data;
               <div class="chronological-class-name">com.pge.hybrid.testcases.gmailsuite.GmailSignUp</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">initTest</span>
-                <span class="method-start">4636 ms</span>
+                <span class="method-start">4568 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.pge.hybrid.testcases.gmailsuite.GmailLogin</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">initTest</span>
-                <span class="method-start">5353 ms</span>
+                <span class="method-start">5375 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">gmaillogin({Username=sharmashekhar86, ExpectedResult=Loginsuccess, url=https://www.google.com/intl/en-GB/gmail/...)</span>
-                <span class="method-start">5814 ms</span>
-              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.pge.hybrid.testcases.gmailsuite.GmailSignUp</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">GmailSignUp({Runmode=Y, FN=Shekhar, LN=Sharma, Browser=Chrome})</span>
-                <span class="method-start">5814 ms</span>
+                <span class="method-start">5424 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">5818 ms</span>
+                <span class="method-start">5424 ms</span>
               </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.pge.hybrid.testcases.gmailsuite.GmailLogin</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">gmaillogin({Username=sharmashekhar86, ExpectedResult=Loginsuccess, url=https://www.google.com/intl/en-GB/gmail/...)</span>
+                <span class="method-start">5559 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.pge.hybrid.testcases.gmailsuite.GmailSignUp</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">initTest</span>
-                <span class="method-start">5985 ms</span>
+                <span class="method-start">5559 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">GmailSignUp({Runmode=Y, FN=Pankaj, LN=Jasrotia, Browser=Mozilla})</span>
-                <span class="method-start">5985 ms</span>
+                <span class="method-start">5559 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">5989 ms</span>
+                <span class="method-start">5559 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.pge.hybrid.testcases.gmailsuite.GmailLogin</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">72717 ms</span>
+                <span class="method-start">46085 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
@@ -1081,65 +1083,63 @@ return data;
               <div class="chronological-class-name">com.pge.hybrid.testcases.facebooksuite.FacebookTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">init</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">17 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.pge.hybrid.testcases.facebooksuite.UploadFiles</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">initTest</span>
-                <span class="method-start">4049 ms</span>
+                <span class="method-start">3860 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">UploadFile({Username=, ExpectedResult=, url=https://imgur.com/upload, filePath=C:\\HybridFramework\\HybridFrame...)</span>
-                <span class="method-start">4454 ms</span>
+                <span class="method-start">4192 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">4462 ms</span>
+                <span class="method-start">4208 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.pge.hybrid.testcases.facebooksuite.FacebookTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">initTest</span>
-                <span class="method-start">5753 ms</span>
+                <span class="method-start">4459 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">facebookLogin({Username=shekhar_20_nice@yahoo.co.in, ExpectedResult=Success, url=https://www.facebook.com, filePat...)</span>
-                <span class="method-start">5985 ms</span>
+                <span class="method-start">5542 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">76424 ms</span>
+                <span class="method-start">74289 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initTest</span>
-                <span class="method-start">82339 ms</span>
+                <span class="method-start">74827 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">facebookLogin({Username=shekhar_20_nice@yahoo.co.in, ExpectedResult=Success, url=https://www.facebook.com, filePat...)</span>
-                <span class="method-start">82402 ms</span>
+                <span class="method-start">74859 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">82402 ms</span>
+                <span class="method-start">74859 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initTest</span>
-                <span class="method-start">82590 ms</span>
+                <span class="method-start">74988 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">AppScanSite({Username=jsmith, url=http://demo.testfire.net/, Password=demo1234, Runmode=Y, Browser=Chrome})</span>
-                <span class="method-start">82590 ms</span>
+                <span class="method-start">74988 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">137545 ms</span>
+                <span class="method-start">111839 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
